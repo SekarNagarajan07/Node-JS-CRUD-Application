@@ -7,8 +7,8 @@ body {
 }
 
 :root {
-  --dark: #fbfbfb;
-  --light: #adb5bd;
+  --dark: #000000;
+  --light: #004d9b;
   --border: #dee2e6;
   --border-btn: #edf2f4;
 }
@@ -68,7 +68,7 @@ a {
 }
 
 #header nav {
-  background-color: #1d3557;
+  background-color: #006aff;
   padding: 1em 0;
   width: 100%;
   color: #edf2f4;
@@ -117,30 +117,4 @@ table {
   color: #edf2f4;
   background-color: #14213d;
   border-color: #1d3557;
-}
-
-@media only screen and (max-width: 1024px) {
-  table,
-  thead,
-  tbody,
-  th,
-  td,
-  tr {
-    display: block;
-  }
-
-  thead tr {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-
-  tr {
-    border: 1px solid var(--border);
-  }
-
-  td {
-    border: none;
-    position: relative;
-  }
 }
