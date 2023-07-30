@@ -7,7 +7,7 @@ body {
 }
 
 :root {
-  --dark: #2b2d42;
+  --dark: #fbfbfb;
   --light: #adb5bd;
   --border: #dee2e6;
   --border-btn: #edf2f4;
@@ -24,4 +24,61 @@ a {
 .container {
   max-width: 500px;
   margin: auto;
+}
+.nav-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.text-center {
+  text-align: center;
+}
+
+.border-shadow {
+  border: 1px solid var(--border-btn);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.text-dark {
+  color: var(--dark);
+}
+
+.inline {
+  display: inline-block;
+}
+
+.text-light {
+  color: var(--light);
+}
+
+.text-gradient {
+  background: #3a49ec;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#header nav {
+  background-color: #1d3557;
+  padding: 1em 0;
+  width: 100%;
+  color: #edf2f4;
+}
+
+#site-main {
+  margin-top: 6em;
+}
+
+#site-main .container .box-nav > a {
+  font-size: 1em;
+  padding: 0.5em 1em;
 }
