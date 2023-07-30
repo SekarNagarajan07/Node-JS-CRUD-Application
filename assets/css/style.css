@@ -22,7 +22,7 @@ a {
   text-decoration: none;
 }
 .container {
-  max-width: 500px;
+  max-width: 1024px;
   margin: auto;
 }
 .nav-brand {
@@ -83,6 +83,10 @@ a {
   padding: 0.5em 1em;
 }
 
+#site-main .container form {
+  margin: 2em 0;
+}
+
 table {
   border-spacing: 0px;
   width: 100%;
@@ -110,8 +114,8 @@ table {
 }
 
 .table .thead-dark th {
-  color: #1d3557;
-  background-color: var(--dark);
+  color: #edf2f4;
+  background-color: #14213d;
   border-color: #1d3557;
 }
 
