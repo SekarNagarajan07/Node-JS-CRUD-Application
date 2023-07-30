@@ -18,3 +18,10 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 500px;
+  margin: auto;
+}
